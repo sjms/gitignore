@@ -1,16 +1,15 @@
+######################
 # Compiled class file
+######################
 *.class
 
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+######################
+# Package Files
+######################
+*.jar
+*.war
+*.ear
+*.db
 *.jar
 *.war
 *.nar
@@ -19,5 +18,79 @@
 *.tar.gz
 *.rar
 
+######################
+# Log file
+######################
+*.log
+
+######################
+# Directories
+######################
+/bin/
+/deploy/
+
+######################
+# Others
+######################
+*.*~
+*~
+.merge_file*
+
+######################
+# Maven
+######################
+/log/
+/target/
+
+######################
+# Gradle
+######################
+.gradle/
+/build/
+
+######################
+# Intellij
+######################
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+
+######################
+# Eclipse
+######################
+*.pydevproject
+.project
+.metadata
+tmp/
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.factorypath
+/src/main/resources/rebel.xml
+
+######################
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+######################
 hs_err_pid*
+
+######################
+# Node
+######################
+/node/
+node_tmp/
+node_modules/
+npm-debug.log.*
+
+######################
+# Visual Studio Code
+######################
+.vscode/
