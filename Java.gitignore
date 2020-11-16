@@ -38,7 +38,7 @@
 ######################
 /log/
 /target/
-# **/target/ # se nao funcionar o acima usar esse (projeto com modulos)
+# **/target/
 
 ######################
 # Gradle
